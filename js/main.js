@@ -63,10 +63,10 @@
     });
 
     //Canvas Menu
-    // $(".canvas__open").on('click', function() {
-    //     $(".offcanvas-menu-wrapper").addClass("active");
-    //     $(".offcanvas-menu-overlay").addClass("active");
-    // });
+    $(".canvas__open").on('click', function() {
+        $(".offcanvas-menu-wrapper").addClass("active");
+        $(".offcanvas-menu-overlay").addClass("active");
+    });
 
     $(".offcanvas-menu-overlay, .close-menu").on('click', function() {
         $(".offcanvas-menu-wrapper").removeClass("active");

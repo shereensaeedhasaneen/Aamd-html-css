@@ -73,15 +73,15 @@ $(document).ready(function() {
             $(".notif-cont").slideToggle("fast")
         })
         // Notification nice-scroll
-    $(".notif-cont").niceScroll({
-        cursorcolor: "#fd1266",
-        cursorwidth: "5px",
-        cursorborder: "none",
-        cursorborderradius: "5px",
-        // autohidemode: false,
-        // railpadding: { top: 0, right: 0, left: 0, bottom: 0 },
-        horizrailenabled: false,
-        preventmultitouchscrolling: true
-    });
+    // $(".notif-cont").niceScroll({
+    //     cursorcolor: "#fd1266",
+    //     cursorwidth: "5px",
+    //     cursorborder: "none",
+    //     cursorborderradius: "5px",
+    //     // autohidemode: false,
+    //     // railpadding: { top: 0, right: 0, left: 0, bottom: 0 },
+    //     horizrailenabled: false,
+    //     preventmultitouchscrolling: true
+    // });
 
 })
