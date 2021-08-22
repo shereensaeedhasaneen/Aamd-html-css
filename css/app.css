@@ -191,8 +191,8 @@
     
     .header .header__menu>ul>li.menu-1 ul {
         transform: translate(-1px, 0px) !important;
-        width: 149px !important;
-        min-width: 149px;
+        width: 160px !important;
+        min-width: 160px;
         padding-top: 0;
         background-color: #0f243c !important;
         border: 1px solid white;
@@ -200,6 +200,7 @@
         border-radius: 0;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+        margin-top: 12px;
     }
     
     .header .header__menu>ul>li.menu-1 ul li a:hover {
@@ -269,8 +270,8 @@
         position: absolute;
         background-color: #fd1266;
         border-radius: 50%;
-        top: 23px;
-        left: -7px;
+        top: -15px;
+        left: 20px;
         width: 18px;
         height: 18px;
         text-align: center;
@@ -300,7 +301,6 @@
         border-radius: 8px;
         padding-bottom: 0;
         max-height: 400px;
-        overflow-y: hidden !important;
         overflow-x: hidden !important;
     }
     
@@ -722,7 +722,7 @@
     }
     
     .subscriptions .price-row>div .inner.second:hover {
-        background-color: #8C65AA;
+        background-color: #A705E0;
     }
     
     .subscriptions .price-row>div .inner.third:hover {
@@ -730,7 +730,7 @@
     }
     
     .subscriptions .price-row>div .inner.fourth:hover {
-        background-color: #FE983F;
+        background-color: #fecc2f;
     }
     
     @media (max-width: 768px) {
@@ -1779,9 +1779,13 @@
     }
     
     .selling .header-taps {
-        border: 1px solid #9f72fc;
+        border: 1px solid #fd1266;
         border-radius: 9px;
         padding: 0;
+    }
+    
+    .selling.buying .header-taps {
+        border-color: #7AC943;
     }
     
     @media (max-width: 1200px) {
@@ -1799,6 +1803,10 @@
         margin-right: auto;
         margin-left: auto;
         opacity: 1;
+    }
+    
+    .selling.buying .header-taps hr {
+        background-color: #7AC943;
     }
     
     @media (max-width: 768px) {
@@ -1850,7 +1858,7 @@
     .selling .header-taps .nav-link:first-of-type.active,
     .selling .header-taps .nav-link:first-of-type:hover {
         color: white;
-        background: #9f72fc;
+        background: #fd1266;
     }
     
     .selling .header-taps .nav-link:nth-of-type(2) {
@@ -1867,7 +1875,7 @@
     .selling .header-taps .nav-link:nth-of-type(2).active,
     .selling .header-taps .nav-link:nth-of-type(2):hover {
         color: white;
-        background: #fd1266;
+        background: #7AC943;
     }
     
     .selling .header-taps .nav-link:nth-of-type(3) {
@@ -1895,7 +1903,6 @@
         font-weight: normal;
         font-size: 20px;
         letter-spacing: -0.03em;
-        padding-left: 32px;
     }
     
     @media (max-width: 768px) {
@@ -1921,11 +1928,15 @@
     .selling .header-taps .nav-link:nth-of-type(7).active,
     .selling .header-taps .nav-link:nth-of-type(7):hover {
         color: white;
-        background: #00ccff;
+        background: #fd1266;
+    }
+    
+    .selling .header-taps .nav-link.nav-link-sub {
+        font-size: 16px !important;
     }
     
     .selling .header-taps .nav-link:last-of-type {
-        color: #7ac943;
+        color: #fd1266;
     }
     
     @media (max-width: 768px) {
@@ -1939,7 +1950,7 @@
     .selling .header-taps .nav-link:last-of-type.active,
     .selling .header-taps .nav-link:last-of-type:hover {
         color: white;
-        background: #7ac943;
+        background: #fd1266;
     }
     
     .selling .inner-content {
@@ -2216,6 +2227,10 @@
             border-bottom: 1px solid #7ac943;
             padding-bottom: 14px;
             padding-top: 8px;
+            padding-left: 0 !important;
+        }
+        .selling.buying .inner-content .tab-pane .inner-item .price {
+            border-top: 1px solid #7ac943;
         }
     }
     
@@ -2391,7 +2406,7 @@
     
     .selling .inner-content .tab-pane .inner-item .btns .inner-gruop .inner:last-of-type button:hover {
         background: #fd1266;
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
     
     .selling .inner-content .tab-pane .inner-item .btns .inner-gruop .inner:last-of-type button:hover a {
@@ -2569,27 +2584,24 @@
         font-weight: normal;
         font-size: 20px;
         letter-spacing: -0.03em;
-        padding-left: 32px;
     }
-    
-    .selling.buying .header-taps .nav-link:nth-of-type(4).active,
+    /* .selling.buying .header-taps .nav-link:nth-of-type(4).active,
     .selling.buying .header-taps .nav-link:nth-of-type(5).active,
     .selling.buying .header-taps .nav-link:nth-of-type(6).active,
     .selling.buying .header-taps .nav-link:nth-of-type(7).active {
         color: white;
         background: #fd1266;
-    }
+    } */
     
     .selling.buying .header-taps .nav-link:last-of-type {
         color: #7ac943;
         font-size: 19px;
-        padding-left: 8px;
+        padding-left: 13px;
     }
-    
-    .selling.buying .header-taps .nav-link:last-of-type.active {
+    /* .selling.buying .header-taps .nav-link:last-of-type.active {
         color: white;
         background: #7ac943;
-    }
+    } */
     
     .selling.buying .inner-content .inner-item .detalis .status {
         position: absolute;
