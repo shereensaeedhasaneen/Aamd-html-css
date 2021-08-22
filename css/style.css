@@ -3943,15 +3943,15 @@ ol {
 
 .header-taps .nav-pills button.nav-link {
     color: #fff !important;
-    font-weight: 100;
-    font-size: 16px !important;
+    font-weight: 900 !important;
+    font-size: 18px !important;
 }
 
-.header-taps .nav-pills button.disabled {
+/*.header-taps .nav-pills button.disabled {
     font-weight: bold;
     font-size: 20px !important;
-    /* font-family: 'Times New Roman', Times, serif; */
-}
+    font-family: 'Times New Roman', Times, serif; 
+}*/
 
 /***************** Radio Avatars **************************/
 
@@ -3959,10 +3959,13 @@ ol {
     position: absolute;
      visibility: hidden;
   }
-
+  input[type=radio] + label img{
+      border: 1px solid #FD1266 !important;
+  }
   input[type=radio]:checked + label>img
   {
       border: 1px solid #FD1266;
+      
   }
   input[type=radio]:checked + label>img#img1 {
     
@@ -4009,4 +4012,54 @@ input[type=radio]:checked + label>img#img8 {
 input[type=radio]:checked + label>img#img9 {
     
     content: url(../images/avatars/avatars-05.jpg);
+}
+
+/**********************/
+
+.form-divider{
+    
+    border: 1px solid #FD1266;
+    height: 50%;
+    width: 3%;
+    display: flex;
+    align-self: center;
+
+}
+
+header .icons svg:hover , header .search-switch svg:hover, header .mesg:hover svg ,header .header__menu>ul>li:nth-of-type(2):hover svg {
+    fill:#FD1266;
+    stroke: #FD1266 !important;
+    
+}
+
+header .mesg:hover , header .header__menu>ul>li:nth-of-type(2):hover {
+    border-color: #FD1266;
+}
+
+.borderrad button.dropdown-toggle span{
+    color: #f1af4d;
+}
+.notif-cont .item .col-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notif-cont .item .col-4 figure{
+    width: 60%;
+}
+
+.terms{
+    font-family: 'Roboto', sans-serif;
+    color: #1da1f2;
+    font-weight: bold;
+}
+.terms-and-cond p , .terms-and-cond ol,.terms-and-cond ul {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+   
+}
+
+.terms-and-cond ol , .terms-and-cond ul{
+    padding-left: 20px ;
 }
