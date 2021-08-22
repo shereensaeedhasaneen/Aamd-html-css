@@ -1,0 +1,20 @@
+.shop-details .cont-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.shop-details .product__details__pic .product__details__pic__item img {
+  width: auto !important;
+}
+.shop-details .product__details__pic .des {
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+.shop-details .product__details__pic .des .item .nav-link {
+  padding: 0;
+}
+.shop-details .product__details__pic .des .item .nav-link .product__thumb__pic {
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=new-style.css.map */

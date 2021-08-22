@@ -1,0 +1,26 @@
+.shop-details .cont-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.shop-details {
+    .product__details__pic {
+        .product__details__pic__item {
+            img {
+                width: auto !important;
+            }
+        }
+        .des {
+            margin-top: 4px;
+            margin-bottom: 30px;
+            .item {
+                .nav-link {
+                    padding: 0;
+                    .product__thumb__pic {
+                        border-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
