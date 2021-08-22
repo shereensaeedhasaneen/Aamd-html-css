@@ -4051,12 +4051,12 @@ header .mesg:hover , header .header__menu>ul>li:nth-of-type(2):hover {
 
 .terms{
     font-family: 'Roboto', sans-serif;
-    color: #1da1f2;
+    color: #1da1f2 !important;
     font-weight: bold;
 }
 .terms-and-cond p , .terms-and-cond ol,.terms-and-cond ul {
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    color: #fff !important;
    
 }
 
