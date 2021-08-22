@@ -64,4 +64,214 @@
   background: #7ac943 !important;
 }
 
+@media (max-width: 1000px) {
+  .header {
+    height: 160px;
+  }
+}
+@media (max-width: 500px) {
+  .header .container {
+    padding: 0;
+    padding-top: 6px;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    padding-left: 4px;
+  }
+}
+@media (max-width: 1000px) {
+  .header .container {
+    max-width: 95%;
+  }
+}
+@media (max-width: 500px) {
+  .header .container {
+    max-width: 99%;
+  }
+}
+@media (min-width: 1200px) {
+  .header .links-header-mobil {
+    display: none !important;
+  }
+}
+.header .links-header-mobil .icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .header .links-header-mobil .icons {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  }
+}
+.header .links-header-mobil .notif-cont {
+  left: -181px;
+}
+.header .links-header-mobil .notif-cont {
+  width: 268px;
+}
+.header .dropdown-cats ul li {
+  margin-bottom: 4px !important;
+}
+.header .dropdown-cats ul li:last-of-type {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#mobile-menu-wrap li {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  padding: 0.25rem 0rem;
+  clear: both;
+  font-weight: 400;
+  color: #dee2e6;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+#mobile-menu-wrap li a {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 0rem;
+  clear: both;
+  font-weight: 400;
+  color: #dee2e6;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  font-size: 0.875em;
+}
+#mobile-menu-wrap .dropdown button {
+  color: #23ccfd;
+  border: 1px solid #23ccfd;
+  padding-right: 46px;
+  position: relative;
+}
+#mobile-menu-wrap .dropdown button:focus {
+  box-shadow: none;
+}
+#mobile-menu-wrap .dropdown .dropdown-menu {
+  background: #111B29;
+  padding: 0px 7px 3px 17px;
+  border: none;
+  position: static !important;
+  transform: none !important;
+}
+#mobile-menu-wrap .dropdown .dropdown-menu li a {
+  font-size: 0.775em;
+}
+#mobile-menu-wrap #dropdownMenuMobile {
+  width: 146px !important;
+}
+#mobile-menu-wrap #dropdownMenuMobile::after {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+}
+#mobile-menu-wrap .item-border {
+  border-top: 2px solid #fd1266;
+}
+#mobile-menu-wrap .login-menu {
+  padding: 0.6em 1em;
+  padding: 0.6em 1em;
+  background: #fd1266;
+  width: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50em;
+}
+
+@media (max-width: 620px) {
+  .header_mobil_guest {
+    height: 111px;
+    padding-top: 10px;
+  }
+}
+
+.canvas__open_guest {
+  top: -56px !important;
+  position: absolute;
+  right: 12px;
+}
+@media (min-width: 576px) {
+  .canvas__open_guest {
+    top: -15px !important;
+  }
+}
+
+.offcanvas__option i {
+  color: #dee2e6;
+}
+
+@media (max-width: 656px) {
+  .header .logo-web {
+    display: none;
+  }
+}
+.header .logo-mobil {
+  max-height: 73px;
+}
+@media (min-width: 656px) {
+  .header .logo-mobil {
+    display: none;
+  }
+}
+.header .mobile-search {
+  border: 1px solid #ffe0e0;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .header #dropdownMenuMarket {
+    padding: 0 11px;
+    margin-right: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  .header .canvas__open {
+    top: 55px;
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    position: static;
+  }
+}
+@media (max-width: 576px) {
+  .header .canvas__open {
+    top: 92px;
+  }
+}
+.header .canvas__open span {
+  display: block;
+  width: 16px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  box-shadow: 0 0 3px 0px #fff;
+}
+.header .canvas__open span:nth-child(2) {
+  width: 20px;
+}
+@media (max-width: 500px) {
+  .header .icons-mobil {
+    margin-bottom: 5px;
+  }
+}
+
 /*# sourceMappingURL=new-style.css.map */

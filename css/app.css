@@ -191,8 +191,8 @@
     
     .header .header__menu>ul>li.menu-1 ul {
         transform: translate(-1px, 0px) !important;
-        width: 160px !important;
-        min-width: 160px;
+        width: 149px !important;
+        min-width: 149px;
         padding-top: 0;
         background-color: #0f243c !important;
         border: 1px solid white;
@@ -200,6 +200,11 @@
         border-radius: 0;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+    }
+    
+    .header .header__menu>ul>li.menu-1 ul#m-user {
+        width: 160px !important;
+        min-width: 160px;
         margin-top: 12px;
     }
     

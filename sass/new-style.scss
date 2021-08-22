@@ -120,3 +120,220 @@
         //     }
         // }
     }
+    
+    .header {
+        @media (max-width: 1000px) {
+            height: 160px;
+        }
+        .container {
+            @media (max-width: 500px) {
+                padding: 0;
+                padding-top: 6px;
+            }
+        }
+        @media (max-width: 500px) {
+            padding-left: 4px;
+        }
+        .container {
+            @media (max-width: 1000px) {
+                max-width: 95%;
+            }
+            @media (max-width: 500px) {
+                max-width: 99%;
+            }
+        }
+        .links-header-mobil {
+            @media (min-width: 1200px) {
+                display: none !important;
+            }
+        }
+        .links-header-mobil {
+            .icons {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                //   padding-right: 50px;
+                @media (max-width: 576px) {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 16px;
+                }
+            }
+            .notif-cont {
+                left: -181px;
+            }
+            .notif-cont {
+                width: 268px;
+            }
+        }
+        .dropdown-cats {
+            ul {
+                li {
+                    margin-bottom: 4px !important;
+                    &:last-of-type {
+                        margin-bottom: 0 !important;
+                        padding-bottom: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+    
+    #mobile-menu-wrap {
+        li {
+            list-style: none;
+            color: white;
+            font-size: 20px;
+            margin-bottom: 10px;
+            display: block;
+            width: 100%;
+            padding: .25rem 0rem;
+            clear: both;
+            font-weight: 400;
+            color: #dee2e6;
+            text-align: inherit;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: transparent;
+            border: 0;
+            a {
+                display: block;
+                width: 100%;
+                padding: .25rem 0rem;
+                clear: both;
+                font-weight: 400;
+                color: #dee2e6;
+                text-align: inherit;
+                text-decoration: none;
+                white-space: nowrap;
+                background-color: transparent;
+                border: 0;
+                font-size: .875em;
+            }
+        }
+        .dropdown {
+            button {
+                color: #23ccfd;
+                border: 1px solid #23ccfd;
+                padding-right: 46px;
+                position: relative;
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            .dropdown-menu {
+                background: #111B29;
+                padding: 0px 7px 3px 17px;
+                border: none;
+                // transform: translate3d(0px, 0px, 0px) !important;
+                // position: static !important;
+                position: static !important;
+                transform: none !important;
+                li {
+                    a {
+                        font-size: 0.775em;
+                    }
+                }
+            }
+        }
+        #dropdownMenuMobile {
+            width: 146px !important;
+        }
+        #dropdownMenuMobile::after {
+            position: absolute;
+            right: 10px;
+            top: 14px;
+        }
+        .item-border {
+            border-top: 2px solid #fd1266;
+        }
+        .login-menu {
+            padding: .6em 1em;
+            padding: 0.6em 1em;
+            background: #fd1266;
+            width: 106px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50em;
+        }
+    }
+    
+    .header_mobil_guest {
+        @media (max-width: 620px) {
+            height: 111px;
+            padding-top: 10px;
+        }
+    }
+    
+    .canvas__open_guest {
+        top: -56px !important;
+        position: absolute;
+        right: 12px;
+        @media (min-width: 576px) {
+            top: -15px !important;
+        }
+    }
+    
+    .offcanvas__option {
+        i {
+            color: #dee2e6;
+        }
+    }
+    
+    .header {
+        .logo-web {
+            @media (max-width: 656px) {
+                display: none;
+            }
+        }
+        .logo-mobil {
+            max-height: 73px;
+            @media (min-width: 656px) {
+                display: none;
+            }
+        }
+        .mobile-search {
+            border: 1px solid #ffe0e0;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+        }
+        #dropdownMenuMarket {
+            @media (min-width: 1000px) and (max-width: 1200px) {
+                padding: 0 11px;
+                margin-right: 12px;
+            }
+        }
+        .canvas__open {
+            @media (max-width: 1200px) {
+                top: 55px;
+                padding-top: 8px;
+                display: flex;
+                align-items: center;
+                justify-items: center;
+                flex-direction: column;
+                position: static;
+            }
+            @media (max-width: $sm) {
+                top: 92px;
+            }
+            span {
+                display: block;
+                width: 16px;
+                height: 3px;
+                background-color: #fff;
+                margin-bottom: 5px;
+                box-shadow: 0 0 3px 0px #fff;
+                &:nth-child(2) {
+                    width: 20px;
+                }
+            }
+        }
+        .icons-mobil {
+            @media (max-width: 500px) {
+                margin-bottom: 5px;
+            }
+        }
+    }
