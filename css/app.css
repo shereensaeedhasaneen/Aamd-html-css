@@ -1968,6 +1968,7 @@
     
     .selling .header-taps .nav-link.nav-link-sub {
         font-size: 16px !important;
+        font-weight: normal !important;
     }
     
     .selling .header-taps .nav-link:last-of-type {
