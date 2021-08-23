@@ -309,6 +309,7 @@ ol {
     box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    border-radius: 38px;
 }
 
 .search-model-form .icon {
@@ -321,6 +322,7 @@ ol {
     color: white;
     font-size: 20px;
     border: none;
+    border-radius: 30px;
 }
 
 .search-close-switch {
@@ -4062,4 +4064,35 @@ header .header__menu>ul>li:nth-of-type(2):hover {
 .terms-and-cond ol,
 .terms-and-cond ul {
     padding-left: 20px;
+}
+/*****************************/
+.header-taps.message {
+    border-color: #FECC2F !important;
+}
+.header-taps.message hr{
+    background-color: #FECC2F !important;
+}
+
+.selling.buying .header-taps.message .nav-link:hover, .selling.buying .header-taps.message .nav-link.active{
+    background: #FECC2F !important;
+}
+
+.price-row span.data::before {
+    content: '';
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   -moz-border-radius: 7.5px;
+   -webkit-border-radius: 7.5px;
+   border-radius: 7.5px;
+   background-color: #9F72FC;
+   margin-right: 10px;
+   position: absolute;
+    left: 21px;
+    margin-top: 7px;
+}
+
+.price-row span.data.data2::before{
+    
+    left: -8px;
 }
