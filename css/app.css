@@ -1308,7 +1308,7 @@
     
     @media (max-width: 768px) {
         .dells .dells-top {
-            background: url("./../images/category banners-19.jpg") no-repeat !important;
+            background: url("./../images/category banners-19.jpg") no-repeat cover !important;
         }
     }
     
