@@ -187,13 +187,15 @@
         $(".open-tabs").slideUp()
     }
 
-    $(".selling .open-tabs").click(function() {
+    $(".selling .open-tabs, .over-lay-selling").click(function() {
         $(".header-taps").slideToggle()
+        $('.selling .over-lay-selling').toggleClass("d-none");
     })
     if (innerWidth < 1200) {
         $(".header-taps .nav .nav-link").click(function() {
             $(".header-taps").slideToggle()
             $(".burger-check").prop("checked", false)
+            $('.selling .over-lay-selling').toggleClass("d-none");
         })
     }
 
