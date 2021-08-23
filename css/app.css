@@ -697,6 +697,9 @@
     .subscriptions .price-row>div {
         position: relative;
         padding: 0;
+        /* edit */
+        padding-left: 10px;
+        padding-right: 38px;
     }
     
     .subscriptions .price-row>div:last-of-type .inner:hover {
@@ -721,21 +724,27 @@
         background-position: bottom;
         transform: translate(-2px, -47px);
     }
-    
+    .subscriptions .price-row>div .inner:hover span.data{
+        display: none;
+    }
     .subscriptions .price-row>div .inner.first:hover {
         background-color: #22B3EB;
+        z-index: 1;
     }
     
     .subscriptions .price-row>div .inner.second:hover {
         background-color: #A705E0;
+        z-index: 1;
     }
     
     .subscriptions .price-row>div .inner.third:hover {
         background-color: #F31A6C;
+        z-index: 1;
     }
     
     .subscriptions .price-row>div .inner.fourth:hover {
         background-color: #fecc2f;
+        z-index: 1;
     }
     
     @media (max-width: 768px) {
@@ -788,7 +797,8 @@
     }
     
     .subscriptions .bot-row p {
-        color: #ffe0e0;
+        /* color: #ffe0e0; */
+        color: transparent;
     }
     
     @media (max-width: 768px) {
@@ -3781,4 +3791,10 @@
     
     .col-4 img {
         cursor: pointer;
+    }
+
+    @media (max-width:767px) {
+        .signup form{
+            padding: 13px !important;
+        }
     }
