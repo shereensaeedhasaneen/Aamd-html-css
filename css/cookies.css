@@ -1,0 +1,57 @@
+.card {
+    width: 350px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(108, 119, 126);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(108, 119, 126, 1);
+    box-shadow: 0px 0px 5px 0px rgb(108, 119, 126);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.cookies a {
+    text-decoration: none;
+    color: #fd1266;
+    margin-top: 8px
+}
+
+.cookies a:hover {
+    text-decoration: none;
+    color: #00ccff;
+    margin-top: 8px
+}
+ .acceptbtn{
+    background-color: #fd1266;
+    color: #fff;
+    border: 0px solid transparent ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+}
+.acceptbtn:hover{
+    background-color: #fff;
+    color: #fd1266;
+    border: 1px solid #fd1266;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 90%;
+}
