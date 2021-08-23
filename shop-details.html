@@ -7,7 +7,7 @@
     <meta name="keywords" content="Aamd">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ALL ABOUT MY DOLLS | Home</title>
+    <title>ALL ABOUT MY DOLLS | Luxurious Dolls</title>
     <link type="image/x-icon" href="./images/Logo.png" rel="shortcut icon">
 
 
@@ -18,8 +18,6 @@
 
     <!-- Css Styles -->
     <link type="text/css" href="css/bootstrap5.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
     <link type="text/css" href="css/all.min.css" rel="stylesheet">
     <link type="text/css" href="css/elegant-icons.css" rel="stylesheet">
     <link type="text/css" href="css/magnific-popup.css" rel="stylesheet">
@@ -28,8 +26,13 @@
     <link type="text/css" href="css/slicknav.min.css" rel="stylesheet">
     <link type="text/css" href="css/style.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
     <link type="text/css" href="css/app.css" rel="stylesheet">
     <link type="text/css" href="css/new-style.css" rel="stylesheet">
+
+    <script src="js/owlcarousel/jquery.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.js"></script>
 
 
 </head>
@@ -630,27 +633,43 @@
                         <div class="row">
 
                             <div class="col-lg-10 col-md-9 cont-img" style="margin: auto;">
-                                <div class="tab-content">
-                                    <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-img1" role="tabpanel" aria-labelledby="nav-img1-tab">
                                         <div class="product__details__pic__item">
                                             <img src="./images/Bg.png" alt="">
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="tabs-2" role="tabpanel">
+                                    <div class="tab-pane fade" id="nav-img2" role="tabpanel" aria-labelledby="nav-img2-tab">
+                                        <div class="product__details__pic__item">
+                                            <img src="./images/Details/Bg-02.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-img3" role="tabpanel" aria-labelledby="nav-img3-tab">
                                         <div class="product__details__pic__item">
                                             <img src="./images/Bg.png" alt="">
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="tabs-3" role="tabpanel">
+                                    <div class="tab-pane fade" id="nav-img4" role="tabpanel" aria-labelledby="nav-img4-tab">
                                         <div class="product__details__pic__item">
-                                            <img src="./images/Bg.png" alt="">
+                                            <img src="./images/Details/bg-04.png" alt="">
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="tabs-4" role="tabpanel">
+                                    <div class="tab-pane fade" id="nav-img5" role="tabpanel" aria-labelledby="nav-img5-tab">
                                         <div class="product__details__pic__item">
-                                            <img src="./images/Bg.png" alt="">
+                                            <img src="./images/Details/Bg-03.png" alt="">
                                         </div>
                                     </div>
+                                    <div class="tab-pane fade" id="nav-img6" role="tabpanel" aria-labelledby="nav-img6-tab">
+                                        <div class="product__details__pic__item">
+                                            <img src="./images/Details/bg-04.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-img7" role="tabpanel" aria-labelledby="nav-img7-tab">
+                                        <div class="product__details__pic__item">
+                                            <img src="./images/Details/Bg-02.png" alt="">
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -660,34 +679,54 @@
                             <section id="demos">
                                 <div class="row">
                                     <div class="large-12 columns parent-tats">
-                                        <div class="owl-carousel owl-theme">
-                                            <div class="item">
-                                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">
+                                        <div class="owl-carousel owl-theme nav nav-tabs" id="nav-tab" role="tablist">
+                                            <div class="item nav-link mb-1 p-0 active" id="nav-img1-tab" data-bs-toggle="tab" data-bs-target="#nav-img1" type="button" role="tab" aria-controls="nav-img1" aria-selected="true">
+                                                <a>
+                                                    <div class="product__thumb__pic set-bg" data-setbg="images/Details/01.png" style="width: 100%; height:135px">
+                                                    </div>
+                                                </a>
+
+                                            </div>
+
+                                            <div class="item nav-link mb-1 p-0" id="nav-img2-tab" data-bs-toggle="tab" data-bs-target="#nav-img2" type="button" role="tab" aria-controls="nav-img2" aria-selected="false">
+                                                <a>
+                                                    <div class="product__thumb__pic set-bg" data-setbg="images/Details/tab-02.png" style="width: 100%; height:135px">
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <div class="item nav-link mb-1 p-0" id="nav-img3-tab" data-bs-toggle="tab" data-bs-target="#nav-img3" type="button" role="tab" aria-controls="nav-img3" aria-selected="false">
+                                                <a>
                                                     <div class="product__thumb__pic set-bg" data-setbg="images/Details/01.png" style="width: 100%; height:135px">
                                                     </div>
                                                 </a>
                                             </div>
 
-                                            <div class="item">
-                                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">
-                                                    <div class="product__thumb__pic set-bg" data-setbg="images/Details/01.png" style="width: 100%; height:135px">
+                                            <div class="item nav-link mb-1 p-0" id="nav-img4-tab" data-bs-toggle="tab" data-bs-target="#nav-img4" type="button" role="tab" aria-controls="nav-img4" aria-selected="false">
+                                                <a>
+                                                    <div class="product__thumb__pic set-bg" data-setbg="images/Details/tab-03.png" style="width: 100%; height:135px">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="item nav-link mb-1 p-0" id="nav-img5-tab" data-bs-toggle="tab" data-bs-target="#nav-img5" type="button" role="tab" aria-controls="nav-img5" aria-selected="false">
+                                                <a>
+                                                    <div class="product__thumb__pic set-bg" data-setbg="images/Details/tab-02.png" style="width: 100%; height:135px">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="item nav-link mb-1 p-0" id="nav-img6-tab" data-bs-toggle="tab" data-bs-target="#nav-img6" type="button" role="tab" aria-controls="nav-img6" aria-selected="false">
+                                                <a>
+                                                    <div class="product__thumb__pic set-bg" data-setbg="images/Details/tab-03.png" style="width: 100%; height:135px">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="item nav-link mb-1 p-0" id="nav-img7-tab" data-bs-toggle="tab" data-bs-target="#nav-img7" type="button" role="tab" aria-controls="nav-img7" aria-selected="false">
+                                                <a>
+                                                    <div class="product__thumb__pic set-bg" data-setbg="images/Details/tab-04.png" style="width: 100%; height:135px">
                                                     </div>
                                                 </a>
                                             </div>
 
-                                            <div class="item">
-                                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">
-                                                    <div class="product__thumb__pic set-bg" data-setbg="images/Details/01.png" style="width: 100%; height:135px">
-                                                    </div>
-                                                </a>
-                                            </div>
-
-                                            <div class="item">
-                                                <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">
-                                                    <div class="product__thumb__pic set-bg" data-setbg="images/Details/01.png" style="width: 100%; height:135px">
-                                                    </div>
-                                                </a>
-                                            </div>
 
                                         </div>
 
@@ -698,9 +737,9 @@
                                                 owl.owlCarousel({
                                                     margin: 10,
                                                     nav: true,
-                                                    /*loop: true,*/
+                                                    loop: true,
                                                     autoplay: true,
-
+                                                    dots: false,
                                                     responsive: {
                                                         0: {
                                                             items: 3
@@ -1296,8 +1335,6 @@
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- <script src="js/bootstrap5.js"></script> -->
-    <!-- <script src="js/bootstrap.bundle.js"></script> -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/swiper.js"></script>
@@ -1311,6 +1348,7 @@
     <script src="js/custom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
     <script src="js/tooltip.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
