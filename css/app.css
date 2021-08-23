@@ -611,7 +611,15 @@
     
     @media (max-width: 768px) {
         .subscriptions h2 {
-            font-size: 46px;
+            font-size: 37px;
+        }
+        .subscriptions .price-row>div .inner span.data{
+            display: none !important;
+        }
+
+        footer ul{
+            display: flex !important;
+            flex-wrap: wrap;
         }
     }
     
@@ -1790,6 +1798,18 @@
         .selling h2 {
             padding: 50px 0;
             padding-left: 8px;
+            font-size: 37px;
+        }
+    }
+
+    @media (max-width:540px) {
+        .selling.buying.messages .col-xl-10 {
+            padding-left: 11px;
+            padding-right: 36px;
+        }
+
+        .selling.messages .accordion-button::after{
+            right: -11px !important;
         }
     }
     
@@ -3796,5 +3816,11 @@
     @media (max-width:767px) {
         .signup form{
             padding: 13px !important;
+        }
+    }
+
+    @media (max-width:1199px) {
+        .header .quantity-cart, .header .quantity-notif{
+            top: -8px !important;
         }
     }
