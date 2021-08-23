@@ -299,10 +299,10 @@
         position: absolute;
         background: white;
         width: 317px;
-        top: 87px;
+        top: 55px;
         left: -13px;
         padding: 10px;
-        z-index: 2;
+        z-index: 4;
         border-radius: 8px;
         padding-bottom: 0;
         max-height: 400px;
@@ -3824,4 +3824,46 @@
         .header .quantity-cart, .header .quantity-notif{
             top: -8px !important;
         }
+    }
+
+    /*************/
+    .header .notif-cont.notif-cont-mobile{
+      
+    top: 160px !important;
+    left: 10% !important;
+    padding-top: 4px !important;
+    z-index: 4 !important; 
+   
+    }
+
+    @media (min-width:411px) and (max-width:414px) {
+        .header .notif-cont.notif-cont-mobile{    
+            left: 23% !important;   
+            }
+    }
+
+    @media (min-width:415px) and (max-width:540px) {
+        .header .notif-cont.notif-cont-mobile{    
+            left: 35% !important;   
+            }
+    }
+
+    @media (max-width:280px) {
+        .header .notif-cont.notif-cont-mobile{    
+            left: 0% !important;   
+            }
+    }
+
+    @media (min-width:541px) and (max-width:768px) {
+        .header .notif-cont.notif-cont-mobile{    
+            top: 110px !important;  
+            left:56% !important ; 
+            }
+    }
+
+    @media (min-width:769px) and (max-width:1024px) {
+        .header .notif-cont.notif-cont-mobile{    
+            top: 88px !important;  
+            left:62% !important ; 
+            }
     }
