@@ -3,6 +3,10 @@
   overflow: hidden;
 }
 
+.text-green {
+  color: #7ac943 !important;
+}
+
 @media (min-width: 992px) {
   .shop-details .product__details__pic .col-lg-8 {
     padding-right: 30px;
@@ -48,6 +52,12 @@
   color: #fecc2f;
 }
 
+.selling .over-lay-selling {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 4;
+}
 .selling .header-taps .nav-link:nth-of-type(4),
 .selling .header-taps .nav-link:nth-of-type(5),
 .selling .header-taps .nav-link:nth-of-type(6),
@@ -62,6 +72,24 @@
 }
 .selling.buying .header-taps .nav-link:hover, .selling.buying .header-taps .nav-link.active {
   background: #7ac943 !important;
+}
+@media (max-width: 1200px) {
+  .selling .top-tabs {
+    position: sticky;
+    top: 0;
+    background: #111b29;
+    z-index: 2;
+  }
+}
+@media (max-width: 1200px) {
+  .selling .header-taps {
+    z-index: 8934;
+    position: fixed;
+    right: 47px;
+    left: 47px;
+    top: 93px;
+    background: #0f243c;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -272,6 +300,57 @@
   .header .icons-mobil {
     margin-bottom: 5px;
   }
+}
+
+.shop-details .product__details__pic .owl-carousel .owl-stage-outer {
+  z-index: 1;
+}
+.shop-details .product__details__pic .product__thumb__pic {
+  border-radius: 8px;
+}
+.shop-details .product__details__pic .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 29%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 100ms;
+}
+.shop-details .product__details__pic .owl-nav .owl-prev,
+.shop-details .product__details__pic .owl-nav .owl-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: #fd1266;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  z-index: 2;
+}
+.shop-details .product__details__pic .owl-nav .owl-prev span,
+.shop-details .product__details__pic .owl-nav .owl-next span {
+  font-size: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  padding: 0;
+  color: #fff;
+  padding-bottom: 4px;
+}
+@media (min-width: 922px) {
+  .shop-details .product__details__pic .owl-nav .owl-prev {
+    transform: translateX(-24px);
+  }
+}
+@media (min-width: 922px) {
+  .shop-details .product__details__pic .owl-nav .owl-next {
+    transform: translateX(24px);
+  }
+}
+
+.c-position-static {
+  position: static !important;
 }
 
 /*# sourceMappingURL=new-style.css.map */
