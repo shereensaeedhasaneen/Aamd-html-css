@@ -3975,39 +3975,39 @@ input[type=radio]:checked+label>img {
 }
 
 input[type=radio]:checked+label>img#img1 {
-    content: url(../images/avatars/avatars-04.jpg);
+    content: url(../images/avatars/avatars-10-colored.jpg);
 }
 
 input[type=radio]:checked+label>img#img2 {
-    content: url(../images/avatars/avatars-03.jpg);
+    content: url(../images/avatars/avatars-11-colored.jpg);
 }
 
 input[type=radio]:checked+label>img#img3 {
-    content: url(../images/avatars/avatars-01.jpg);
+    content: url(../images/avatars/avatars-12-colored.jpg);
 }
 
 input[type=radio]:checked+label>img#img4 {
-    content: url(../images/avatars/avatars-07.jpg);
+    content: url(../images/avatars/avatars-13-colored.jpg);
 }
 
 input[type=radio]:checked+label>img#img5 {
-    content: url(../images/avatars/avatars-08.jpg);
+    content: url(../images/avatars/avatars-14-colored.jpg);
 }
 
 input[type=radio]:checked+label>img#img6 {
-    content: url(../images/avatars/avatars-02.jpg);
+    content: url(../images/avatars/avatars-15-colored.jpg);
 }
 
 input[type=radio]:checked+label>img#img7 {
-    content: url(../images/avatars/avatars-06.jpg);
+    content: url(../images/avatars/avatars-16-colored.jpg);
 }
 
 input[type=radio]:checked+label>img#img8 {
-    content: url(../images/avatars/avatars-09.jpg);
+    content: url(../images/avatars/avatars-17-colored.jpg);
 }
 
 input[type=radio]:checked+label>img#img9 {
-    content: url(../images/avatars/avatars-05.jpg);
+    content: url(../images/avatars/avatars-18-colored.jpg);
 }
 
 
