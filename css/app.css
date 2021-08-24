@@ -3866,13 +3866,13 @@
     @media (min-width:541px) and (max-width:768px) {
         .header .notif-cont.notif-cont-mobile{    
             top: 110px !important;  
-            left:56% !important ; 
+            left:45% !important ; 
             }
     }
 
     @media (min-width:769px) and (max-width:1024px) {
         .header .notif-cont.notif-cont-mobile{    
             top: 88px !important;  
-            left:62% !important ; 
+            left:47% !important ; 
             }
     }
