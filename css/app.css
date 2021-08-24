@@ -3876,3 +3876,14 @@
             left:47% !important ; 
             }
     }
+
+    .btn-maroon {
+        background: #fd1266 !important;
+    }
+
+    .btn-maroon:hover {
+        background: transparent !important;
+        border: 1px solid #F31A6C !important;
+        color: #F31A6C !important;
+
+    }
