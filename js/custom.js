@@ -69,7 +69,7 @@ $(document).ready(function() {
     $(".notif-cont").slideUp()
     $(".notif-cont").slideUp("fast")
 
-    $(".btn-quantity").click(function() {
+    $(".btn-notification").click(function() {
             $(".notif-cont").slideToggle("fast")
         })
         // Notification nice-scroll
