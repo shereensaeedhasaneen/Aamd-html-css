@@ -4104,6 +4104,29 @@ header .header__menu>ul>li:nth-of-type(2):hover {
     text-decoration: none;
     font-family: "Roboto";
     font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+.hero .home-logged button.pink{
+    background: #FD1266;
+    color: #fff;
+}
+
+.hero .home-logged button.pink:hover{
+    background: transparent;
+    border: 2px solid #FD1266;
+}
+
+.hero .home-logged button.green{
+    background: #77b527;
+    color: #fff;
+}
+
+.hero .home-logged button.green:hover{
+    background: transparent;
+    border: 2px solid #77b527;
 }
 .hero .home-logged{
     height: 70%;
@@ -4125,7 +4148,7 @@ header .header__menu>ul>li:nth-of-type(2):hover {
     height: 75%;
     background-color: #fff;
 }
-.hero .home-logged button.green{
+/*.hero .home-logged button.green{
     border: 3px solid #77b527;
     background: rgba(119, 181, 39, 0.4);
     color: #77b527;
@@ -4155,4 +4178,4 @@ header .header__menu>ul>li:nth-of-type(2):hover {
     padding: 4px;
     background: rgba(253, 18, 102, 0.4);
     
- }
+ }*/
