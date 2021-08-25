@@ -3895,6 +3895,7 @@
         height: 45px !important;
     }
 
+    /************ hidden icons in home guest ****************/
     ul.ul-home-guest li {
         visibility: hidden !important;
     }
