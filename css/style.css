@@ -4098,7 +4098,7 @@ header .header__menu>ul>li:nth-of-type(2):hover {
 }
 
 /***************************************/
-.hero .home-logged button{
+.hero .home-logged button {
     display: inline-block;
     padding: 6px 36px 10px;
     text-decoration: none;
@@ -4109,12 +4109,12 @@ header .header__menu>ul>li:nth-of-type(2):hover {
     outline: none;
     transition: 0.3s;
 }
-.hero .home-logged button.pink{
+.hero .home-logged button.pink {
     background: #FD1266;
     color: #fff;
 }
 
-.hero .home-logged button.pink:hover{
+.hero .home-logged button.pink:hover {
     background: transparent;
     border: 2px solid #FD1266;
 }
@@ -4249,3 +4249,98 @@ header .header__menu>ul>li:nth-of-type(2):hover {
       border: 1px solid #1da1f2;
       padding: 20px 25px;
   }
+
+  /**********************************************/
+  .subscribe-here .buttons a button{
+    display: inline-block;
+    padding: 6px 25px 10px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.5s; 
+    margin-right: 5px;
+  }
+
+  .subscribe-here .buttons a.pink button{
+    background: #FD1266;
+    border: 1px solid #FD1266;
+    color: #fff;
+  }
+
+  .subscribe-here .buttons a.pink button:hover{
+    background: transparent;
+    border: 1px solid #FD1266;
+    color: #FD1266;
+}
+
+.subscribe-here .buttons a.blue button{
+    background: transparent;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+}
+
+.subscribe-here .buttons a.blue button:hover{
+    background: #1da1f2;
+    color: #fff;
+}
+
+.subscribe-here .buttons .col-12 {
+    
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-here .buttons .col-12 div{
+    margin-right: 20px;
+    background: rgba(159, 159, 159, 0.1);
+    padding: 16px;
+    border-radius: 20px;
+}
+
+@media (max-width:768px) {
+    .subscribe-here .col-lg-4 img{
+        display: none;
+    }
+    .subscribe-here .content{
+        border: none;
+    }
+
+    .subscribe-here h1{
+        font-size: 9vw;
+    }
+}
+
+
+.subscribe-here div.paypal{
+   
+        /*background-image: url(
+       '../images/paypal.png');
+        background-size: cover;
+        background-repeat: no-repeat;*/
+        background: #FFC439;
+        width: 100%;
+        height: 50px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 5px;
+        border-radius: 4px;
+    
+}
+
+
+
+@media (max-width:500px) {
+    .subscribe-here .buttons .col-12 {
+    
+        justify-content: flex-start !important;
+      }
+
+      .mesg.mobile{
+          margin-right: 0px !important;
+      }
+}

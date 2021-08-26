@@ -739,7 +739,83 @@
         background-color: #22B3EB;
         z-index: 1;
     }
+
+    /*****************************************************/
+    .subscriptions .price-row>div .inner.first.active{
+        background-color: #22B3EB;
+        z-index: 1;
+    }
+
+    .subscriptions .price-row>div .inner.first.active span.data{
+        display: none;
+    }
+
+    .subscriptions .price-row>div:last-of-type .inner.first.active {
+        transform: translate(2px, -47px);
+    }
     
+    .subscriptions .price-row>div .inner.first.active {
+        padding-top: 55px;
+        transition: all 0.4s ease-in-out;
+        transition: padding 0.1s;
+        height: 100%;
+    }
+    
+    .subscriptions .price-row>div .inner.first.active {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        /*background: url("./../images/Plan-Bg.png");*/
+        border-radius: 23px;
+        transition: all 0.4s ease-in-out;
+        transition: padding 0.1s;
+        background-position: bottom;
+        transform: translate(-2px, -47px);
+    }
+
+    .subscriptions .price-row>div .inner.first.active a{
+        display: block;
+        padding-top: 5px;
+    }
+    /******************************************************/
+    /*****************************************************/
+    .subscriptions .price-row>div .inner.second.active{
+        background-color: #A705E0;
+        z-index: 1;
+    }
+
+    .subscriptions .price-row>div .inner.second.active span.data{
+        display: none;
+    }
+
+    .subscriptions .price-row>div:last-of-type .inner.second.active {
+        transform: translate(2px, -47px);
+    }
+    
+    .subscriptions .price-row>div .inner.second.active {
+        padding-top: 55px;
+        transition: all 0.4s ease-in-out;
+        transition: padding 0.1s;
+        height: 100%;
+    }
+    
+    .subscriptions .price-row>div .inner.second.active {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        /*background: url("./../images/Plan-Bg.png");*/
+        border-radius: 23px;
+        transition: all 0.4s ease-in-out;
+        transition: padding 0.1s;
+        background-position: bottom;
+        transform: translate(-2px, -47px);
+    }
+
+    .subscriptions .price-row>div .inner.second.active a{
+        display: block;
+        padding-top: 5px;
+    }
+    /******************************************************/
     .subscriptions .price-row>div .inner.second:hover {
         background-color: #A705E0;
         z-index: 1;
