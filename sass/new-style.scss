@@ -18,6 +18,14 @@
         color: $green !important;
     }
     
+    .font-weight-bolder {
+        font-weight: bolder !important;
+    }
+    
+    .ml-10 {
+        margin-left: 10px !important;
+    }
+    
     .shop-details {
         .product__details__pic .col-lg-8 {
             @media (min-width: 992px) {

@@ -7,6 +7,14 @@
   color: #7ac943 !important;
 }
 
+.font-weight-bolder {
+  font-weight: bolder !important;
+}
+
+.ml-10 {
+  margin-left: 10px !important;
+}
+
 @media (min-width: 992px) {
   .shop-details .product__details__pic .col-lg-8 {
     padding-right: 30px;
